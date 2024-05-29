@@ -1,0 +1,223 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1716995969
+default_env.tres::Environment::-1::1716995943::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1716995289::0::1::::<><>::
+icon.png::CompressedTexture2D::7291604057612394638::1716995289::1716995970::1::::<><>::
+README.md::TextFile::-1::1716995649::0::1::::<><>::
+::res://assets/::1716995288
+alien_dude.png::CompressedTexture2D::7452971225972360298::1716995286::1716995970::1::::<><>::
+alien_dude_weapon.png::CompressedTexture2D::6139025233898309578::1716995286::1716995970::1::::<><>::
+CampFireFinished.png::CompressedTexture2D::5853293775588387090::1716995286::1716995970::1::::<><>::
+column_1.png::CompressedTexture2D::4005814240816916991::1716995286::1716995970::1::::<><>::
+column_2.png::CompressedTexture2D::6095844463861610672::1716995286::1716995970::1::::<><>::
+column_3.png::CompressedTexture2D::3709107944209963094::1716995286::1716995970::1::::<><>::
+Desert Tiles.png::CompressedTexture2D::7658655608441602389::1716995286::1716995970::1::::<><>::
+door.png::CompressedTexture2D::2881985832164362386::1716995286::1716995970::1::::<><>::
+door_open.png::CompressedTexture2D::427405849718385375::1716995286::1716995970::1::::<><>::
+Dungeon_Tileset.png::CompressedTexture2D::1707332641853873817::1716995286::1716995971::1::::<><>::
+Green Portal Sprite Sheet.png::CompressedTexture2D::3250465856434719562::1716995287::1716995970::1::::<><>::
+Logo.png::CompressedTexture2D::6907675869911530533::1716995287::1716995970::1::::<><>::
+menu_idle.png::CompressedTexture2D::3017960277694745606::1716995287::1716995970::1::::<><>::
+player.png::CompressedTexture2D::5182486802868634737::1716995287::1716995970::1::::<><>::
+player_weapon.png::CompressedTexture2D::675735218583211217::1716995287::1716995970::1::::<><>::
+slime.png::CompressedTexture2D::6904594823191058903::1716995287::1716995970::1::::<><>::
+spikes.png::CompressedTexture2D::2420995054381086705::1716995287::1716995970::1::::<><>::
+::res://assets/Enemies/::1716995287
+::res://assets/Enemies/alien/::1716995287
+alien_bullet.png::CompressedTexture2D::3521355089530607874::1716995287::1716995971::1::::<><>::
+::res://assets/Enemies/alien/flash/::1716995287
+Flash_0.png::CompressedTexture2D::1939317258580373371::1716995287::1716995971::1::::<><>::
+Flash_1.png::CompressedTexture2D::9133496449456268953::1716995287::1716995971::1::::<><>::
+Flash_2.png::CompressedTexture2D::308257034783191068::1716995287::1716995971::1::::<><>::
+Flash_3.png::CompressedTexture2D::7760991811247276840::1716995287::1716995971::1::::<><>::
+::res://assets/Enemies/turret/::1716995287
+explosion.png::CompressedTexture2D::7330858260716339464::1716995287::1716995971::1::::<><>::
+turret_BASE.png::CompressedTexture2D::4706430144664730955::1716995287::1716995971::1::::<><>::
+turret_BULLET1.png::CompressedTexture2D::1966446957326324020::1716995287::1716995971::1::::<><>::
+turret_BULLET.png::CompressedTexture2D::1486234544299043992::1716995287::1716995971::1::::<><>::
+turret_FACE.png::CompressedTexture2D::3405002240012828363::1716995287::1716995971::1::::<><>::
+::res://assets/fonts/::1716995287
+FtyStrategycideNcv-elGl.ttf::FontFile::846042306133780697::1716995287::1716995970::1::::<><>::
+FtyStrategycideNcv-elGl_24.tres::FontFile::-1::1716995944::0::1::::<><>::res://assets/fonts/FtyStrategycideNcv-elGl.ttf
+SPACE.ttf::FontFile::5174317016482930407::1716995287::1716995970::1::::<><>::
+TimeandSpace-Regular.ttf::FontFile::5021449881554989241::1716995287::1716995970::1::::<><>::
+::res://assets/icons_128/::1716995287
+arrow_left.png::CompressedTexture2D::7915032969283812012::1716995287::1716995971::1::::<><>::
+::res://assets/Misc/::1716995287
+::res://assets/Misc/Crate/::1716995287
+crate_Destroy Crate_00.png::CompressedTexture2D::2098133438337563203::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_01.png::CompressedTexture2D::1038787596065090701::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_02.png::CompressedTexture2D::1374504947095197475::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_03.png::CompressedTexture2D::9134864501542137919::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_04.png::CompressedTexture2D::8682397948351349671::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_05.png::CompressedTexture2D::5905631327095475582::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_06.png::CompressedTexture2D::3068370483548494489::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_07.png::CompressedTexture2D::4060384322516771633::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_08.png::CompressedTexture2D::1518146370537957495::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_09.png::CompressedTexture2D::349989675880746362::1716995287::1716995971::1::::<><>::
+crate_Destroy Crate_10.png::CompressedTexture2D::4534086190963799650::1716995287::1716995971::1::::<><>::
+::res://assets/Misc/light/::1716995287
+light.png::CompressedTexture2D::8953764007725854329::1716995287::1716995971::1::::<><>::
+TorchLight.png::CompressedTexture2D::6927846675412671103::1716995287::1716995971::1::::<><>::
+::res://assets/Misc/medkit/::1716995287
+medkit2.png::CompressedTexture2D::6070022513874097590::1716995287::1716995970::1::::<><>::
+medkit.png::CompressedTexture2D::1106113421026295410::1716995287::1716995970::1::::<><>::
+::res://assets/Misc/Torch/::1716995287
+Torch light_Torch Light_0.png::CompressedTexture2D::3327416527659933826::1716995287::1716995971::1::::<><>::
+Torch_Torch_0.png::CompressedTexture2D::5370415832330927227::1716995287::1716995971::1::::<><>::
+Torch_Torch_1.png::CompressedTexture2D::4551275470623068556::1716995287::1716995971::1::::<><>::
+Torch_Torch_2.png::CompressedTexture2D::6603476122327343977::1716995287::1716995971::1::::<><>::
+Torch_Torch_3.png::CompressedTexture2D::873202781198844661::1716995287::1716995971::1::::<><>::
+Torch_Torch_4.png::CompressedTexture2D::3737497837400412944::1716995287::1716995971::1::::<><>::
+Torch_Torch_5.png::CompressedTexture2D::2991394355008319898::1716995287::1716995971::1::::<><>::
+Torch_Torch_6.png::CompressedTexture2D::2630567335283404253::1716995287::1716995971::1::::<><>::
+Torch_Torch_7.png::CompressedTexture2D::6185813808552748531::1716995287::1716995971::1::::<><>::
+::res://assets/music/::1716995287
+desert-ambience.ogg::AudioStreamOggVorbis::8269148275981620338::1716995287::1716995970::1::::<><>::
+mus1b.ogg::AudioStreamOggVorbis::3193690361506668329::1716995287::1716995970::1::::<><>::
+mus101.ogg::AudioStreamOggVorbis::1786101940401594763::1716995287::1716995970::1::::<><>::
+::res://assets/Player/::1716995288
+::res://assets/Player/Death/::1716995288
+Astro_Astrounaut Death_04.png::CompressedTexture2D::3490856200959567169::1716995288::1716995971::1::::<><>::
+Astro_Astrounaut Death_05.png::CompressedTexture2D::3796920567212920026::1716995288::1716995971::1::::<><>::
+Astro_Astrounaut Death_06.png::CompressedTexture2D::1278178241807226647::1716995288::1716995971::1::::<><>::
+Astro_Astrounaut Death_07.png::CompressedTexture2D::2989727889942011174::1716995288::1716995971::1::::<><>::
+Astro_Astrounaut Death_08.png::CompressedTexture2D::6553240417167749232::1716995288::1716995971::1::::<><>::
+Astro_Astrounaut Death_09.png::CompressedTexture2D::3836202761683558233::1716995288::1716995971::1::::<><>::
+Astro_Astrounaut Death_10.png::CompressedTexture2D::4628117341094082842::1716995288::1716995971::1::::<><>::
+Astro_Astrounaut Death_11.png::CompressedTexture2D::2111698334122672073::1716995288::1716995971::1::::<><>::
+::res://assets/Player/Gun/::1716995288
+::res://assets/Player/Gun/Bullet/::1716995288
+bullet_projectile_0.png::CompressedTexture2D::8224186788748027935::1716995288::1716995971::1::::<><>::
+::res://assets/Player/Gun/Crosshair/::1716995288
+crosshair.png::CompressedTexture2D::3180556876628280305::1716995288::1716995970::1::::<><>::
+::res://assets/Player/Gun/Muzzle Flash/::1716995288
+muzzle flash_muzzle flash_0.png::CompressedTexture2D::2531594827187790068::1716995288::1716995970::1::::<><>::
+muzzle flash_muzzle flash_1.png::CompressedTexture2D::4299964653136076551::1716995288::1716995970::1::::<><>::
+muzzle flash_muzzle flash_2.png::CompressedTexture2D::6995137124412348316::1716995288::1716995970::1::::<><>::
+::res://assets/Player/Gun/On Hit/::1716995288
+on hit_on hit_0.png::CompressedTexture2D::8341189772519783871::1716995288::1716995970::1::::<><>::
+on hit_on hit_1.png::CompressedTexture2D::5773220296248335723::1716995288::1716995970::1::::<><>::
+on hit_on hit_2.png::CompressedTexture2D::7714724939188762215::1716995288::1716995970::1::::<><>::
+::res://assets/Player/Shadow/::1716995288
+shadow.png::CompressedTexture2D::210699883535204875::1716995288::1716995970::1::::<><>::
+::res://assets/Sounds/::1716995288
+burst fire.mp3::AudioStreamMP3::7164257813126065027::1716995288::1716995970::1::::<><>::
+cannon_fire.ogg::AudioStreamOggVorbis::1238655346144820692::1716995288::1716995970::1::::<><>::
+door.wav::AudioStreamWAV::1391957711278225475::1716995288::1716995971::1::::<><>::
+explosion-1.ogg::AudioStreamOggVorbis::7634158270987041677::1716995288::1716995970::1::::<><>::
+explosion-2.ogg::AudioStreamOggVorbis::4063441111376397656::1716995288::1716995970::1::::<><>::
+explosion-3.ogg::AudioStreamOggVorbis::319299740690963183::1716995288::1716995970::1::::<><>::
+explosion_4.wav::AudioStreamWAV::6514052530149813605::1716995288::1716995971::1::::<><>::
+gruntsound.wav::AudioStreamWAV::8820691313527489805::1716995288::1716995971::1::::<><>::
+hit-2.wav::AudioStreamWAV::3398849856207896213::1716995288::1716995971::1::::<><>::
+key_pickup.wav::AudioStreamWAV::993298861177299071::1716995288::1716995971::1::::<><>::
+laser_gun.mp3::AudioStreamMP3::4070610856493352030::1716995288::1716995970::1::::<><>::
+Menu Selection Click.wav::AudioStreamWAV::722135046926496057::1716995288::1716995971::1::::<><>::
+Replenish.wav::AudioStreamWAV::7280589125128016960::1716995288::1716995971::1::::<><>::
+scream-4.ogg::AudioStreamOggVorbis::5581580325072085566::1716995288::1716995970::1::::<><>::
+select.mp3::AudioStreamMP3::8368574685266574037::1716995288::1716995970::1::::<><>::
+shoot-3.wav::AudioStreamWAV::8259244698520813134::1716995288::1716995971::1::::<><>::
+slime8.wav::AudioStreamWAV::3461647015119607481::1716995288::1716995971::1::::<><>::
+slimy_monster_or_murderd_sound.mp3::AudioStreamMP3::6035393797016406946::1716995288::1716995970::1::::<><>::
+teleport.wav::AudioStreamWAV::7307674764242434185::1716995288::1716995971::1::::<><>::
+::res://assets/UI/::1716995288
+controls.png::CompressedTexture2D::3700723046877894811::1716995288::1716995970::1::::<><>::
+healthbar_border.png::CompressedTexture2D::8363146171213361891::1716995288::1716995970::1::::<><>::
+healthbar_empty.png::CompressedTexture2D::3406683270268639939::1716995288::1716995970::1::::<><>::
+healthbar_full.png::CompressedTexture2D::2834604419135415665::1716995288::1716995970::1::::<><>::
+kills.png::CompressedTexture2D::6269302047009918386::1716995288::1716995970::1::::<><>::
+over.png::CompressedTexture2D::8365601750189700589::1716995288::1716995970::1::::<><>::
+progress.png::CompressedTexture2D::553713387631206654::1716995288::1716995970::1::::<><>::
+under.png::CompressedTexture2D::3821317503777747171::1716995288::1716995970::1::::<><>::
+::res://bullet/::1716995289
+AlienBullet.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
+AlienBullet.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://bullet/PlayerBullet.tscn<>res://bullet/AlienBullet.gd<>res://assets/Enemies/alien/alien_bullet.png<>res://overlap/Hitbox.tscn
+EnemyBullet.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
+EnemyBullet.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://bullet/PlayerBullet.tscn<>res://assets/Enemies/turret/turret_BULLET.png<>res://bullet/EnemyBullet.gd<>res://overlap/Hitbox.tscn
+HitEffect.gd::GDScript::-1::1716995943::0::1::::<>AnimatedSprite2D<>::
+HitEffect.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://bullet/HitEffect.gd<>res://assets/Player/Gun/On Hit/on hit_on hit_0.png<>res://assets/Player/Gun/On Hit/on hit_on hit_2.png<>res://assets/Player/Gun/On Hit/on hit_on hit_1.png<>res://assets/Misc/light/light.png
+PlayerBullet.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
+PlayerBullet.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Player/Gun/Bullet/bullet_projectile_0.png<>res://overlap/Hitbox.tscn<>res://bullet/PlayerBullet.gd<>res://bullet/HitEffect.tscn
+::res://destructibles/::1716995289
+Crate.gd::GDScript::-1::1716995943::0::1::::<>StaticBody2D<>::
+Crate.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Misc/Crate/crate_Destroy Crate_00.png<>res://assets/Misc/Crate/crate_Destroy Crate_02.png<>res://assets/Misc/Crate/crate_Destroy Crate_03.png<>res://assets/Misc/Crate/crate_Destroy Crate_04.png<>res://assets/Misc/Crate/crate_Destroy Crate_01.png<>res://assets/Misc/Crate/crate_Destroy Crate_05.png<>res://assets/Misc/Crate/crate_Destroy Crate_07.png<>res://assets/Misc/Crate/crate_Destroy Crate_08.png<>res://assets/Misc/Crate/crate_Destroy Crate_09.png<>res://assets/Misc/Crate/crate_Destroy Crate_10.png<>res://assets/Misc/Crate/crate_Destroy Crate_06.png<>res://destructibles/Crate.gd<>res://assets/Sounds/hit-2.wav<>res://assets/Sounds/explosion-1.ogg
+DestructibleEntity.gd::GDScript::-1::1716995943::0::1::::<>StaticBody2D<>::
+DestructibleEntity.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://destructibles/DestructibleEntity.gd
+::res://effects/::1716995289
+FadeIn.gd::GDScript::-1::1716995943::0::1::::<>ColorRect<>::
+FadeIn.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://effects/FadeIn.gd
+::res://enemy/::1716995289
+AlienDude.gd::GDScript::-1::1716995943::0::1::::<>Entity<>::
+AlienDude.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://entity/Entity.tscn<>res://assets/Player/Death/Astro_Astrounaut Death_06.png<>res://enemy/AlienDude.gd<>res://assets/Player/Death/Astro_Astrounaut Death_05.png<>res://assets/Player/Death/Astro_Astrounaut Death_11.png<>res://assets/Player/Death/Astro_Astrounaut Death_07.png<>res://assets/Player/Death/Astro_Astrounaut Death_10.png<>res://assets/Player/Death/Astro_Astrounaut Death_04.png<>res://assets/Player/Death/Astro_Astrounaut Death_09.png<>res://assets/Player/Death/Astro_Astrounaut Death_08.png<>res://assets/alien_dude_weapon.png<>res://assets/alien_dude.png<>res://assets/Misc/light/light.png<>res://bullet/AlienBullet.tscn
+EnemySlime.gd::GDScript::-1::1716995943::0::1::::<>Entity<>::
+EnemySlime.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/slime.png<>res://entity/Entity.tscn<>res://overlap/Hitbox.tscn<>res://enemy/EnemySlime.gd<>res://shaders/whiten_material.tres<>res://assets/Sounds/slime8.wav<>res://assets/Misc/light/light.png
+Explosion.gd::GDScript::-1::1716995943::0::1::::<>Node2D<>::
+Explosion.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Enemies/turret/explosion.png<>res://enemy/Explosion.gd<>res://assets/Sounds/explosion_4.wav<>res://assets/Misc/light/light.png
+Turret.gd::GDScript::-1::1716995943::0::1::::<>StaticBody2D<>::
+Turret.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Enemies/turret/turret_FACE.png<>res://assets/Enemies/turret/turret_BASE.png<>res://enemy/Turret.gd<>res://assets/Sounds/cannon_fire.ogg
+::res://entity/::1716995289
+Entity.gd::GDScript::-1::1716995943::0::1::::Entity<>CharacterBody2D<>::
+Entity.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://entity/Entity.gd<>res://overlap/Hurtbox.tscn<>res://shaders/whiten_material.tres
+::res://globals/::1716995289
+Globals.gd::GDScript::-1::1716995943::0::1::::<>Node<>::
+::res://HUD/::1716995289
+HealthBar.gd::GDScript::-1::1716995943::0::1::::<>TextureProgressBar<>::
+HealthBar.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/UI/healthbar_empty.png<>res://assets/UI/healthbar_border.png<>res://assets/UI/healthbar_full.png<>res://assets/fonts/TimeandSpace-Regular.ttf
+KillsCounter.gd::GDScript::-1::1716995943::0::1::::<>Label<>::
+KillsCounter.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/UI/kills.png<>res://HUD/KillsCounter.gd
+screenShake.gd::GDScript::-1::1716995943::0::1::::<>Node<>::
+ScreenShake.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://HUD/screenShake.gd
+UI.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://levels/UI.gd<>res://HUD/HealthBar.tscn<>res://HUD/KillsCounter.tscn
+::res://levels/::1716995289
+GameOver.gd::GDScript::-1::1716995943::0::1::::<>Control<>::
+Level.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://levels/Main.gd<>res://assets/Desert Tiles.png<>res://assets/music/mus101.ogg<>res://destructibles/Crate.tscn<>res://pickups/Medkit.tscn<>res://misc/Torch.tscn<>res://menu/PauseMenu.tscn<>res://HUD/UI.tscn<>res://menu/GameOverScreen.tscn<>res://menu/ControlsScreen.tscn<>res://traps/Spikes.tscn<>res://enemy/EnemySlime.tscn<>res://enemy/Turret.tscn<>res://misc/Portal.tscn<>res://player/Player.tscn<>res://misc/EndLevelDoor.tscn<>res://assets/Dungeon_Tileset.png<>res://obstacles/Column2.tscn<>res://enemy/AlienDude.tscn
+Main.gd::GDScript::-1::1716995943::0::1::::<>Node2D<>::
+UI.gd::GDScript::-1::1716995943::0::1::::<>CanvasLayer<>::
+::res://menu/::1716995289
+Button.tres::Theme::-1::1716995943::0::1::::<><>::
+Button.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://menu/Button.tres
+Controls.gd::GDScript::-1::1716995943::0::1::::<>Control<>::
+ControlsScreen.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://menu/Controls.gd<>res://menu/Button.tscn<>res://assets/fonts/FtyStrategycideNcv-elGl_24.tres<>res://assets/fonts/FtyStrategycideNcv-elGl.ttf<>res://assets/UI/controls.png
+GameOverScreen.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://levels/GameOver.gd<>res://menu/Button.tscn<>res://assets/fonts/FtyStrategycideNcv-elGl_24.tres
+Pause.gd::GDScript::-1::1716995943::0::1::::<>Control<>::
+PauseMenu.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://menu/Pause.gd<>res://menu/Button.tscn<>res://assets/fonts/FtyStrategycideNcv-elGl_24.tres
+TheEnd.gd::GDScript::-1::1716995943::0::1::::<>Control<>::
+TheEnd.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://menu/TheEnd.gd<>res://menu/Button.tscn<>res://assets/fonts/FtyStrategycideNcv-elGl_24.tres
+TheEndScreen.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://menu/TheEnd.tscn
+::res://menu/Credits/::1716995289
+Credits.gd::GDScript::-1::1716995943::0::1::::<>Control<>::
+Credits.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/fonts/FtyStrategycideNcv-elGl.ttf<>res://assets/icons_128/arrow_left.png<>res://menu/Credits/Credits.gd
+::res://misc/::1716995289
+EndLevelDoor.gd::GDScript::-1::1716995943::0::1::::<>StaticBody2D<>::
+EndLevelDoor.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/door.png<>res://assets/door_open.png<>res://assets/Player/Death/Astro_Astrounaut Death_06.png<>res://assets/Player/Death/Astro_Astrounaut Death_05.png<>res://assets/Player/Death/Astro_Astrounaut Death_07.png<>res://assets/Player/Death/Astro_Astrounaut Death_08.png<>res://assets/Player/Death/Astro_Astrounaut Death_09.png<>res://assets/Player/Death/Astro_Astrounaut Death_11.png<>res://assets/Player/Death/Astro_Astrounaut Death_10.png<>res://misc/EndLevelDoor.gd<>res://assets/Sounds/explosion-1.ogg<>res://assets/Sounds/door.wav<>res://assets/Sounds/key_pickup.wav
+Portal.gd::GDScript::-1::1716995943::0::1::::<>StaticBody2D<>::
+Portal.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://misc/Portal.gd<>res://assets/Green Portal Sprite2D Sheet.png<>res://assets/Misc/light/light.png
+Torch.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Misc/Torch/Torch_Torch_4.png<>res://assets/Misc/light/TorchLight.png<>res://assets/Misc/Torch/Torch_Torch_1.png<>res://assets/Misc/Torch/Torch_Torch_0.png<>res://assets/Misc/Torch/Torch_Torch_6.png<>res://assets/Misc/Torch/Torch_Torch_3.png<>res://assets/Misc/Torch/Torch_Torch_7.png<>res://assets/Misc/Torch/Torch_Torch_5.png<>res://assets/Misc/Torch/Torch_Torch_2.png
+::res://obstacles/::1716995289
+Column0.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/column_1.png<>res://obstacles/ObstacleEntity.tscn
+Column1.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/column_2.png<>res://obstacles/ObstacleEntity.tscn
+Column2.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/column_3.png<>res://obstacles/ObstacleEntity.tscn
+ObstacleEntity.gd::GDScript::-1::1716995943::0::1::::<>StaticBody2D<>::
+ObstacleEntity.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://obstacles/ObstacleEntity.gd
+::res://overlap/::1716995289
+Hitbox.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
+Hitbox.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://overlap/Hitbox.gd
+Hurtbox.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
+Hurtbox.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://overlap/Hurtbox.gd
+::res://pickups/::1716995289
+Medkit.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
+Medkit.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://pickups/Medkit.gd<>res://assets/Misc/medkit/medkit2.png<>res://assets/Misc/light/light.png
+::res://player/::1716995289
+Player.gd::GDScript::-1::1716995943::0::1::::<>Entity<>::
+Player.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://entity/Entity.tscn<>res://player/Player.gd<>res://assets/player.png<>res://assets/player_weapon.png<>res://bullet/PlayerBullet.tscn<>res://assets/Player/Death/Astro_Astrounaut Death_05.png<>res://assets/Player/Death/Astro_Astrounaut Death_04.png<>res://assets/Player/Death/Astro_Astrounaut Death_06.png<>res://assets/Player/Death/Astro_Astrounaut Death_07.png<>res://assets/Player/Death/Astro_Astrounaut Death_08.png<>res://assets/Player/Death/Astro_Astrounaut Death_09.png<>res://assets/Player/Death/Astro_Astrounaut Death_11.png<>res://assets/Player/Death/Astro_Astrounaut Death_10.png<>res://shaders/whiten_material.tres<>res://HUD/ScreenShake.tscn<>res://assets/Player/Gun/Muzzle Flash/muzzle flash_muzzle flash_0.png<>res://assets/Player/Gun/Muzzle Flash/muzzle flash_muzzle flash_2.png<>res://assets/Player/Gun/Muzzle Flash/muzzle flash_muzzle flash_1.png<>res://assets/Player/Shadow/shadow.png<>res://assets/Sounds/shoot-3.wav<>res://assets/Sounds/Replenish.wav<>res://assets/Sounds/gruntsound.wav<>res://assets/Sounds/scream-4.ogg<>res://assets/Misc/light/light.png
+::res://shaders/::1716995943
+whiten.gdshader::Shader::-1::1716995943::0::1::::<><>::
+whiten_material.tres::ShaderMaterial::-1::1716995943::0::1::::<><>::res://shaders/whiten.gdshader
+::res://titleScreen/::1716995289
+MusicTitleScreen.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/music/desert-ambience.ogg
+TitleScreen.gd::GDScript::-1::1716995943::0::1::::<>Control<>::
+TitleScreen.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://obstacles/Column0.tscn<>res://assets/Logo.png<>res://assets/Sounds/Menu Selection Click.wav<>res://assets/Desert Tiles.png<>res://obstacles/Column1.tscn<>res://assets/fonts/FtyStrategycideNcv-elGl.ttf<>res://obstacles/Column2.tscn<>res://assets/Misc/light/TorchLight.png<>res://assets/menu_idle.png<>res://assets/CampFireFinished.png<>res://assets/music/mus1b.ogg<>res://effects/FadeIn.tscn<>res://titleScreen/TitleScreen.gd<>res://menu/Button.tscn
+::res://traps/::1716995289
+Spikes.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
+Spikes.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://traps/Spikes.gd<>res://assets/spikes.png<>res://overlap/Hitbox.tscn

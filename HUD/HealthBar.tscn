@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://assets/UI/healthbar_empty.png" type="Texture2D" id=1]
+[ext_resource path="res://assets/UI/healthbar_border.png" type="Texture2D" id=2]
+[ext_resource path="res://assets/UI/healthbar_full.png" type="Texture2D" id=3]
+[ext_resource path="res://assets/fonts/TimeandSpace-Regular.ttf" type="FontFile" id=5]
+
+[sub_resource type="FontFile" id=1]
+size = 8
+font_data = ExtResource( 5 )
+
+[node name="HealthBar" type="TextureProgressBar" groups=["Healthbar"]]
+offset_left = 39.0
+offset_top = 13.0
+offset_right = 71.0
+offset_bottom = 25.0
+scale = Vector2( 2, 1 )
+value = 50.0
+texture_under = ExtResource( 1 )
+texture_over = ExtResource( 2 )
+texture_progress = ExtResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+offset_left = -9.5
+offset_top = 2.0
+offset_right = -1.5
+offset_bottom = 12.0
+theme_override_fonts/font = SubResource( 1 )
+text = "HP"
+
+[node name="Tween" type="Tween" parent="."]
