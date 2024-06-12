@@ -1,17 +1,28 @@
 extends CharacterBody2D
 class_name Entity # class
 
+# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+# Tók út velocity variablið og er að reyna að nota CharacterBody2D velocitið í staðin, er ekki viss að ég gerði það rétt
 
 signal hp_changed(new_hp)       
 signal hp_max_changed(new_hp_max) 
 signal died 
 
-@export (int) var hp_max: int = 100: set = set_hp_max
-@export (int) var hp: int = hp_max: get = get_hp, set = set_hp
-@export (int) var speed: int = 40                             # acceleration
-@export (int) var max_speed: int = 100                        # speed
-@export (bool) var is_knockback: bool = true
-@export (float) var knockback_modifier: float = 0.1
+#@export (int) var hp_max: int = 100: set = set_hp_max
+@export var hp_max = int(100): set = set_hp_max
+
+#@export (int) var hp: int = hp_max: get = get_hp, set = set_hp
+@export var hp = int(100): set = set_hp, get = get_hp
+
+#@export (int) var speed: int = 40                             # acceleration
+@export var speed = int(40)
+#@export (int) var max_speed: int = 100                        # speed
+@export var max_speed = int(100)
+#@export (bool) var is_knockback: bool = true
+@export var is_knockback = bool(true)
+#@export (float) var knockback_modifier: float = 0.1
+@export var knockback_modifier = float(0.1)
+
 
 const FRICTION: float = 0.15
 
@@ -21,12 +32,13 @@ const FRICTION: float = 0.15
 @onready var hurtbox = $Hurtbox
 
 var move_direction: Vector2 = Vector2.ZERO  # movement vector
-var velocity: Vector2 = Vector2.ZERO        # speed vector
+# var velocity: Vector2 = Vector2.ZERO        # speed vector
 
-func _physics_process(delta):
+
+func _physics_process(_delta):
 	set_velocity(velocity)
 	move_and_slide()
-	velocity = velocity
+	# velocity = velocity
 	velocity = lerp(velocity, Vector2.ZERO, FRICTION) # sample speed
 	move()
 	

@@ -4,10 +4,11 @@ var path: PackedVector2Array
 var target = null
 @export var enemy_velocity = 2
 
-@onready var navigation: Navigation2D = get_tree().current_scene.get_node("Navigation2D")
+#@onready var navigation: Navigation2D = get_tree().current_scene.get_node("Navigation2D")
+@onready var navigation: Node2D = get_tree().current_scene.get_node("Node2D")
 @onready var player: CharacterBody2D = get_tree().current_scene.get_node("Player")
 
-func _process(delta):
+func _process(_delta):
 	if hp > 0:
 		chase()
 	else:
@@ -21,7 +22,7 @@ func _on_EnemySlime_died():
 	if not $SFXDied.is_playing():
 		$SFXDied.play()
 
-func _on_EnemySlime_hp_changed(new_hp):
+func _on_EnemySlime_hp_changed(_new_hp):
 	if self.hp > 0:
 		anim_player.play("hit")
 
@@ -40,7 +41,8 @@ func chase():
 		
 		# pop the point from array when reached
 		if distance_to_next_point < enemy_velocity: 
-			path.remove(0)
+			#path.remove(0)
+			path.remove_at(0)
 			if not path:
 				return # if there are no points left, return
 		move_direction = vector_to_next_point

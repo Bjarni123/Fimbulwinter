@@ -3,17 +3,21 @@ extends Node
 const TRANS = Tween.TRANS_SINE
 const EASE = Tween. EASE_IN_OUT
 
-@export (float) var frequency = 15.0
-@export (int) var amplitude = 8
-@export (float) var duration = 0.2
+#@export (float) var frequency = 15.0
+#@export (int) var amplitude = 8
+#@export (float) var duration = 0.2
+@export var frequency = float(15)
+@export var amplitude = int(8)
+@export var duration = float(0.2)
+
 
 @onready var camera = get_parent()
 
 # shake effect
-func start(amplitude, duration, frequency):
-	self.amplitude = amplitude
-	$Duration.wait_time = duration
-	$Frequency.wait_time = 1 / float(frequency)
+func start(ampl, dur, freq):
+	self.amplitude = ampl
+	$Duration.wait_time = dur
+	$Frequency.wait_time = 1 / float(freq)
 	$Duration.start()
 	$Frequency.start()
 	newShake()

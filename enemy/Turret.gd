@@ -1,11 +1,16 @@
 extends StaticBody2D
 
-@export (PackedScene) var bullet: PackedScene = preload("res://bullet/EnemyBullet.tscn")
-@export (PackedScene) var explosion: PackedScene = preload("res://enemy/Explosion.tscn")
+#@export (PackedScene) var bullet: PackedScene = preload("res://bullet/EnemyBullet.tscn")
+#@export (PackedScene) var explosion: PackedScene = preload("res://enemy/Explosion.tscn")
+@export var bullet: PackedScene = preload("res://bullet/EnemyBullet.tscn")
+@export var explosion: PackedScene = preload("res://enemy/Explosion.tscn")
+
 
 var target: Node2D = null
-@export (float) var turret_speed = 100
-@export (float) var turret_hp = 50
+#@export (float) var turret_speed = 100
+#@export (float) var turret_hp = 50
+@export var turret_speed = float(100)
+@export var turret_hp = float(50)
 
 @onready var gun = $Gun
 @onready var cannon1 = $Gun/Cannon1

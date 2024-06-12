@@ -12,13 +12,15 @@ var laser_color = Color(1.0, .329, .298)
 @onready var ray_cast = $RayCast2D
 @onready var reload_timer = $RayCast2D/ReloadTimer
 
-@export (PackedScene) var alien_bullet: PackedScene = preload("res://bullet/AlienBullet.tscn")
-@export (float) var weapon_speed
+#@export (PackedScene) var alien_bullet: PackedScene = preload("res://bullet/AlienBullet.tscn")
+@export var alien_bullet: PackedScene = preload("res://bullet/AlienBullet.tscn")
+#@export (float) var weapon_speed
+@export var weapon_speed = float()
 # simple finite state machine
-@export (String, "aim", "patrol") var patrol_type = "patrol" 
+#@export (String, "aim", "patrol") var patrol_type = "patrol" 
+@export var patrol_type = String("patrol")
 
-
-func _on_AlienDude_hp_changed(new_hp):
+func _on_AlienDude_hp_changed(_new_hp):
 	pass
 
 func _on_AlienDude_died():

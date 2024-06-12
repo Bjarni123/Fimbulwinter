@@ -1,10 +1,11 @@
 extends Entity
 
- # smooth movement of camera
+# smooth movement of camera
 const SMOOTH := 0.1
 var is_alive : bool = true
 
-@export (PackedScene) var bullet: PackedScene = preload("res://bullet/PlayerBullet.tscn")
+# @export (PackedScene) var bullet: PackedScene = preload("res://bullet/PlayerBullet.tscn")
+@export var bullet: PackedScene = preload("res://bullet/PlayerBullet.tscn")
 
 @onready var muzzle = $Weapon/Muzzle
 @onready var weapon = $Weapon
@@ -14,7 +15,7 @@ var is_alive : bool = true
 @onready var screen_shake = $Camera3D/Camera2D/ScreenShake
 
 
-func _process(delta: float):
+func _process(_delta: float):
 	var mouse_direction: Vector2 = (get_global_mouse_position() - global_position).normalized()
 	
 	if is_alive:
@@ -88,7 +89,8 @@ func heal(value):
 	emit_signal("hp_changed", hp * 100/hp_max)
 
 func _on_Player_died():
-	screen_shake.start(Callable(4, 0.4).bind(15))
+	#screen_shake.start(Callable(4, 0.4).bind(15))
+	screen_shake.start(4, 0.4, 15)
 	hp = 0
 	$SFXDied.play()
 	anim_player.play("death")
@@ -100,12 +102,12 @@ func _on_Player_died():
 	is_alive = false
 
 
-func _on_Player_hp_changed(new_hp):
+func _on_Player_hp_changed(_new_hp):
 	if hp > 0:
 		$SFXScream.play()
 
 func _on_FireRate_timeout():
 	flash.visible = false
 
-func _on_AnimationPlayer_animation_finished(anim_name):
+func _on_AnimationPlayer_animation_finished(_anim_name):
 	pass

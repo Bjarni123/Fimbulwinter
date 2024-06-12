@@ -1,3 +1,10 @@
-res://default_env.tres
-res://titleScreen/TitleScreen.tscn
-res://menu/Button.tres
+res://entity/Entity.gd
+res://globals/Globals.gd
+res://HUD/HealthBar.gd
+res://HUD/KillsCounter.gd
+res://HUD/screenShake.gd
+res://levels/GameOver.gd
+res://enemy/AlienDude.gd
+res://enemy/EnemySlime.gd
+res://bullet/HitEffect.gd
+res://player/Player.gd

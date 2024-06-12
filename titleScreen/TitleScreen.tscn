@@ -568,6 +568,8 @@ layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 script = ExtResource("30")
 
 [node name="Background" type="Control" parent="."]
@@ -622,6 +624,8 @@ autoplay = "fire"
 [node name="FadeIn" parent="." instance=ExtResource("29")]
 visible = false
 layout_mode = 0
+anchor_right = 0.0
+anchor_bottom = 0.0
 
 [node name="SFXSelect" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("3")
