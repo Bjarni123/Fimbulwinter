@@ -3,7 +3,7 @@ extends "res://overlap/Hitbox.gd"
 #@export (int) var bullet_speed: int = 100
 @export var bullet_speed = int(100)
 #@export (PackedScene) var hit_effect: PackedScene = preload("res://bullet/HitEffect.tscn")
-@export var hit_effect: PackedScene = preload("res://bullet/HitEffect.gd")
+@onready var hit_effect = preload("res://bullet/HitEffect.gd")
 @onready var hit_effect_pos = $hit_pos
 
 func _ready():

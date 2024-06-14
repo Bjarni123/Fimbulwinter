@@ -35,7 +35,8 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 
 func _physics_process(delta):
 	# to draw
-	update() 
+	# update() 
+	queue_redraw()
 	
 	# if the state is "patrol", the enemy moves following a path
 	if patrol_type == "patrol" and self.hp > 0:

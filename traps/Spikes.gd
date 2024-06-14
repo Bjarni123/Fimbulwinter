@@ -1,7 +1,10 @@
 extends "res://overlap/Hitbox.gd"
 
-@export (float) var knockback_modifier: float = 0.1
-@export (bool) var is_knockback: bool = true
+#@export (float) var knockback_modifier: float = 0.1
+#@export (bool) var is_knockback: bool = true
+
+@export var knockback_modifier = float(0.1)
+@export var is_knockback = bool(true)
 
 @onready var animation_player: AnimationPlayer = get_node("AnimationPlayer")
 

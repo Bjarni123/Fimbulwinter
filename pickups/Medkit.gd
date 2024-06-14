@@ -1,6 +1,7 @@
 extends Area2D
 
-@export (int) var health_value = 25
+# @export (int) var health_value = 25
+@export var health_value = int(25)
 
 # check if the boy has method heal:
 func _on_Medkit_body_entered(body):

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718199659
+::res://::1718322551
 default_env.tres::Environment::4805098261016822534::1718197426::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1716995289::0::1::::<><>::
 icon.png::CompressedTexture2D::7291604057612394638::1716995289::1716995970::1::::<><>::
@@ -135,7 +135,7 @@ AlienBullet.gd::GDScript::-1::1718197730::0::1::::<>Area2D<>::
 AlienBullet.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://bullet/PlayerBullet.tscn<>res://bullet/AlienBullet.gd<>res://assets/Enemies/alien/alien_bullet.png<>res://overlap/Hitbox.tscn
 EnemyBullet.gd::GDScript::-1::1718197841::0::1::::<>Area2D<>::
 EnemyBullet.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://bullet/PlayerBullet.tscn<>res://assets/Enemies/turret/turret_BULLET.png<>res://bullet/EnemyBullet.gd<>res://overlap/Hitbox.tscn
-HitEffect.gd::GDScript::-1::1716995943::0::1::::<>AnimatedSprite2D<>::
+HitEffect.gd::GDScript::-1::1718201587::0::1::::<>AnimatedSprite2D<>::
 HitEffect.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://bullet/HitEffect.gd<>res://assets/Player/Gun/On Hit/on hit_on hit_0.png<>res://assets/Player/Gun/On Hit/on hit_on hit_2.png<>res://assets/Player/Gun/On Hit/on hit_on hit_1.png<>res://assets/Misc/light/light.png
 PlayerBullet.gd::GDScript::-1::1718197905::0::1::::<>Area2D<>::
 PlayerBullet.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Player/Gun/Bullet/bullet_projectile_0.png<>res://overlap/Hitbox.tscn<>res://bullet/PlayerBullet.gd<>res://bullet/HitEffect.tscn
@@ -148,25 +148,25 @@ DestructibleEntity.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://destru
 FadeIn.gd::GDScript::-1::1718197928::0::1::::<>ColorRect<>::
 FadeIn.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://effects/FadeIn.gd
 ::res://enemy/::1716995289
-AlienDude.gd::GDScript::-1::1718198187::0::1::::<>Entity<>::
+AlienDude.gd::GDScript::-1::1718202604::0::1::::<>Entity<>::
 AlienDude.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://entity/Entity.tscn<>res://assets/Player/Death/Astro_Astrounaut Death_06.png<>res://enemy/AlienDude.gd<>res://assets/Player/Death/Astro_Astrounaut Death_05.png<>res://assets/Player/Death/Astro_Astrounaut Death_11.png<>res://assets/Player/Death/Astro_Astrounaut Death_07.png<>res://assets/Player/Death/Astro_Astrounaut Death_10.png<>res://assets/Player/Death/Astro_Astrounaut Death_04.png<>res://assets/Player/Death/Astro_Astrounaut Death_09.png<>res://assets/Player/Death/Astro_Astrounaut Death_08.png<>res://assets/alien_dude_weapon.png<>res://assets/alien_dude.png<>res://assets/Misc/light/light.png<>res://bullet/AlienBullet.tscn
-EnemySlime.gd::GDScript::-1::1716995943::0::1::::<>Entity<>::
+EnemySlime.gd::GDScript::-1::1718202391::0::1::::<>Entity<>::
 EnemySlime.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/slime.png<>res://entity/Entity.tscn<>res://overlap/Hitbox.tscn<>res://enemy/EnemySlime.gd<>res://shaders/whiten_material.tres<>res://assets/Sounds/slime8.wav<>res://assets/Misc/light/light.png
 Explosion.gd::GDScript::-1::1718198262::0::1::::<>Node2D<>::
 Explosion.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Enemies/turret/explosion.png<>res://enemy/Explosion.gd<>res://assets/Sounds/explosion_4.wav<>res://assets/Misc/light/light.png
 Turret.gd::GDScript::-1::1718198486::0::1::::<>StaticBody2D<>::
 Turret.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/Enemies/turret/turret_FACE.png<>res://assets/Enemies/turret/turret_BASE.png<>res://enemy/Turret.gd<>res://assets/Sounds/cannon_fire.ogg
 ::res://entity/::1716995289
-Entity.gd::GDScript::-1::1718199604::0::1::::Entity<>CharacterBody2D<>::
+Entity.gd::GDScript::-1::1718200421::0::1::::Entity<>CharacterBody2D<>::
 Entity.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://entity/Entity.gd<>res://overlap/Hurtbox.tscn<>res://shaders/whiten_material.tres
 ::res://globals/::1716995289
 Globals.gd::GDScript::-1::1716995943::0::1::::<>Node<>::
 ::res://HUD/::1716995289
 HealthBar.gd::GDScript::-1::1716995943::0::1::::<>TextureProgressBar<>::
 HealthBar.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/UI/healthbar_empty.png<>res://assets/UI/healthbar_border.png<>res://assets/UI/healthbar_full.png<>res://assets/fonts/TimeandSpace-Regular.ttf
-KillsCounter.gd::GDScript::-1::1716995943::0::1::::<>Label<>::
+KillsCounter.gd::GDScript::-1::1718201132::0::1::::<>Label<>::
 KillsCounter.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://assets/UI/kills.png<>res://HUD/KillsCounter.gd
-screenShake.gd::GDScript::-1::1716995943::0::1::::<>Node<>::
+screenShake.gd::GDScript::-1::1718201129::0::1::::<>Node<>::
 ScreenShake.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://HUD/screenShake.gd
 UI.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://levels/UI.gd<>res://HUD/HealthBar.tscn<>res://HUD/KillsCounter.tscn
 ::res://levels/::1716995289
@@ -209,7 +209,7 @@ Hurtbox.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://overlap/Hurtbox.g
 Medkit.gd::GDScript::-1::1716995943::0::1::::<>Area2D<>::
 Medkit.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://pickups/Medkit.gd<>res://assets/Misc/medkit/medkit2.png<>res://assets/Misc/light/light.png
 ::res://player/::1718196585
-Player.gd::GDScript::-1::1718196593::0::1::::<>Entity<>::
+Player.gd::GDScript::-1::1718201649::0::1::::<>Entity<>::
 Player.tscn::PackedScene::-1::1716995943::0::1::::<><>::res://entity/Entity.tscn<>res://player/Player.gd<>res://assets/player.png<>res://assets/player_weapon.png<>res://bullet/PlayerBullet.tscn<>res://assets/Player/Death/Astro_Astrounaut Death_05.png<>res://assets/Player/Death/Astro_Astrounaut Death_04.png<>res://assets/Player/Death/Astro_Astrounaut Death_06.png<>res://assets/Player/Death/Astro_Astrounaut Death_07.png<>res://assets/Player/Death/Astro_Astrounaut Death_08.png<>res://assets/Player/Death/Astro_Astrounaut Death_09.png<>res://assets/Player/Death/Astro_Astrounaut Death_11.png<>res://assets/Player/Death/Astro_Astrounaut Death_10.png<>res://shaders/whiten_material.tres<>res://HUD/ScreenShake.tscn<>res://assets/Player/Gun/Muzzle Flash/muzzle flash_muzzle flash_0.png<>res://assets/Player/Gun/Muzzle Flash/muzzle flash_muzzle flash_2.png<>res://assets/Player/Gun/Muzzle Flash/muzzle flash_muzzle flash_1.png<>res://assets/Player/Shadow/shadow.png<>res://assets/Sounds/shoot-3.wav<>res://assets/Sounds/Replenish.wav<>res://assets/Sounds/gruntsound.wav<>res://assets/Sounds/scream-4.ogg<>res://assets/Misc/light/light.png
 ::res://shaders/::1716995943
 whiten.gdshader::Shader::-1::1716995943::0::1::::<><>::
